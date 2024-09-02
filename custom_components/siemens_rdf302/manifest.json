@@ -1,0 +1,11 @@
+{
+    "domain": "siemens_rdf302",
+    "name": "Siemens RDF302 Thermostat",
+    "documentation": "https://github.com/bakadave/ha_siemens_rdf302",
+    "dependencies": [],
+    "codeowners": ["@bakadavid"],
+    "requirements": ["pymodbus>=3.0.0"],
+    "iot_class": "local_polling",
+    "version": "0.1.0",
+    "config_flow": true
+}

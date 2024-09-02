@@ -1,0 +1,27 @@
+"""Constants for the Siemens RDF302 integration."""
+
+from homeassistant.const import Platform
+
+DOMAIN = "siemens_rdf302"
+PLATFORMS = [Platform.CLIMATE]
+
+CONF_NAME = "name"
+CONF_HUB = "hub"
+CONF_UNIT_ID = "unit_id"
+CONF_POLL_INTERVAL = "poll_interval"
+CONF_HOST = "host"
+CONF_PORT = "port"
+CONF_UNIQUE_ID = "unique_id"
+
+DEFAULT_POLL_INTERVAL = 10
+
+# Registers
+REGISTER_PRESET_RO = 1000
+REGISTER_FAN_SPEED_RO = 1001
+REGISTER_CURRENT_TEMP_RO = 1002
+REGISTER_SETPOINT_TEMP_RO = 1003
+
+REGISTER_PRESET_RW = 100
+REGISTER_FAN_SPEED_RW = 101
+REGISTER_SETPOINT_TEMP_RW = 102
+REGISTER_HEAT_COOL_RW = 106
